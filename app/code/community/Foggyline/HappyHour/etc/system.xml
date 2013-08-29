@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <tabs>
+        <foggyline module="foggyline_happyhour">">
+            <label>Foggyline</label>
+            <sort_order>10</sort_order>
+        </foggyline>
+    </tabs>    
+    <sections>
+        <foggyline_happyhour module="foggyline_happyhour">
+            <label>FoggylineHappyHour</label>
+            <tab>foggyline</tab>
+            <sort_order>10</sort_order>
+            <show_in_default>1</show_in_default>
+            <groups>
+                <settings>
+                    <label>FoggylineHappyHour Settings</label>
+                    <sort_order>10</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <fields>
+                        <custom_message>
+                            <label>Custom Message</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                        </custom_message>                      
+                    </fields>
+                </settings>
+            </groups>
+        </foggyline_happyhour>
+    </sections>
+</config>
